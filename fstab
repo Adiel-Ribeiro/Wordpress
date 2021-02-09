@@ -1,0 +1,7 @@
+# Custom /etc/fstab for FreeBSD VM images - By NUVYM
+/dev/gpt/rootfs   /       ufs     rw      1       1
+/dev/nvd1p1 /usr/local ufs rw 1 1
+/dev/nvd1p2 /home ufs rw,nosuid 1 1
+/dev/nvd1p3 /var ufs rw,noexec 1 1
+/dev/nvd1p4 /var/log ufs rw,noexec 1 1
+/dev/nvd1p5 /tmp ufs rw,noexec 1 1
