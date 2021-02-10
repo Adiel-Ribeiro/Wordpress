@@ -1,0 +1,20 @@
+************ PLEASE, ADJUST SOME SETTINGS ACCORDINGLY TO YOUR NEEDS ******************* 
+
+Take a look at these files: 
+
+wp-config.php
+config-mysql
+
+Also, take a look at wordpress.sh to understand NUYVM's WordPress automation 
+
+#######################################################################################
+
+This script assumes that you already have sudo configured for the user wich executes it
+
+Please, download wordpress.sh to your machine and make it executable 
+Do sh wordpress.sh 
+
+Login to your WordPress server by your browser with user nuvym and password nuvym
+Don't forget to change this password! 
+
+
